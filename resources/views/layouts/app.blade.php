@@ -17,6 +17,9 @@
 
     <main class="bg-main">
         @yield('content')
+        <div class="bg-main-2">
+            @include('partials.main')
+        </div>
     </main>
 
 </body>
