@@ -1,6 +1,6 @@
 <div class="container">
     <nav class="main-navigation">
-        <ul class="d-flex list-unstyled gap-2 px-4 py-4 justify-content-between fs-4">
+        <ul class="d-flex list-unstyled gap-2 px-4 py-4 justify-content-between fs-4 m-0">
             <li class="d-flex align-items-center">
                 <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="logo">
                 <h5 class="ms-2">DIGITAL COMICS</h5>
