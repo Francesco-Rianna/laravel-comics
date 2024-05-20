@@ -12,10 +12,16 @@
                 <h5 class="tit-card"> {{$comic['title']}} </h5>
                 
             </div>
+            
+            
 
             @endforeach
             
         </div>
+        <div class="text-center mb-3">
+            <button class="btn-more px-5 py-1">Load More</button>
+        </div>
+
     </div>
 
 @endsection
