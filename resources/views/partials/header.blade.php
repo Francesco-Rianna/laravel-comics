@@ -1,7 +1,9 @@
 <header>
-    <div class="ms-container d-flex align-items-center justify-content-between p-3">
-        <div class="logo">
-            <a href="{{ route('homepage') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo"></a>
+    <div class="container d-flex align-items-center justify-content-between p-3">
+        <div>
+            <a class="logo" href="{{ route('homepage') }}">
+                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+            </a>
         </div>
 
         <nav class="navigation">
