@@ -1,7 +1,11 @@
 
 <header>
     <div class="ms-container d-flex align-items-center justify-content-between p-3">
-        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+        <div>
+            
+            <a href="{{ route('homepage') }}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo"></a>
+        </div>
+
         <nav>
             <ul class="d-flex gap-2 list-unstyled">
                 <li>Characters</li>
