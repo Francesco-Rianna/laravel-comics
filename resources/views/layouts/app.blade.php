@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Comic</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -21,6 +21,10 @@
             @include('partials.main')
         </div>
     </main>
+
+    <footer class="mt-0">
+        @include('partials.footer')
+    </footer>
 
 </body>
 

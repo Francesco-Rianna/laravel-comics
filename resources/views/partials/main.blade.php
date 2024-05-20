@@ -1,5 +1,5 @@
-<div class="ms-container">
-    <nav>
+<div class="container">
+    <nav class="main-navigation">
         <ul class="d-flex list-unstyled gap-2 px-4 py-4 justify-content-between fs-4">
             <li class="d-flex align-items-center">
                 <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png')}}" alt="logo">

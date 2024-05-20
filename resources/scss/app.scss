@@ -3,6 +3,8 @@
 @use './partials/hero';
 @use './partials/cardlist';
 @use './partials/homepage';
+@use './partials/footer';
+@use './partials/main';
 @import '~bootstrap/scss/bootstrap';
 
 .bg-main {
@@ -11,4 +13,10 @@
 
 .bg-main-2 {
     background-color: #0282f9;
+}
+
+.bg-foot {
+    background-image: url('/resources/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

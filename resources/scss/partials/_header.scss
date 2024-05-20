@@ -1,19 +1,24 @@
-.ms-container {
-    img {
+.head-section {
+    .logo {
         width: 70px;
     }
 
+}
+
+.navigation {
+
     li {
         font-size: 20px;
+        color: black;
     }
 
     li:hover {
-        color: lightblue;
-        cursor: pointer;
+        color: lightblue
     }
 
     a {
         text-decoration: none;
         color: inherit;
     }
+
 }
