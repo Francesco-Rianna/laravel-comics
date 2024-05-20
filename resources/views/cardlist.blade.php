@@ -9,7 +9,7 @@
             
             <div class="ms-card ">
                 <img src="{{$comic['thumb']}}" alt="comic-img">
-                <h5> {{$comic['title']}} </h5>
+                <h5 class="tit-card"> {{$comic['title']}} </h5>
                 
             </div>
 
