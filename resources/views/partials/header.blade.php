@@ -5,7 +5,9 @@
         <nav>
             <ul class="d-flex gap-2 list-unstyled">
                 <li>Characters</li>
-                <li class="ms-hover">Comics</li>
+                <li class="ms-hover">
+                    <a href="{{ route('cardlist') }}">Comics</a>
+                </li>
                 <li>Movies</li>
                 <li>Tv</li>
                  <li>Games</li>
@@ -17,5 +19,6 @@
             </ul>
         </nav>
     </div>
+    @include('partials.hero')
     
 </header>

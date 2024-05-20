@@ -15,8 +15,8 @@
 <body>
     @include('partials.header')
 
-    <main>
-        @include('partials.hero')
+    <main class="bg-main">
+        @yield('content')
     </main>
 
 </body>

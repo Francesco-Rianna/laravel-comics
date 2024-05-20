@@ -1,4 +1,9 @@
 @use './partials/variables' as *;
 @use './partials/header';
 @use './partials/hero';
+@use './partials/cardlist';
 @import '~bootstrap/scss/bootstrap';
+
+.bg-main {
+    background: black;
+}
